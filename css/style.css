@@ -581,6 +581,13 @@ color: var(--text-color);
         bottom: -103px;
     } 
 }
+@media screen and (min-width:430px){
+    .chifs-content .layer .chif .chif-img::before{
+    
+        bottom: -81px;
+    } 
+
+}
 }
 /* end chifs section  */  
 /* ---------- start gallary section-------  */
@@ -1013,4 +1020,24 @@ font-size: 22px;
     }
 }
 /* ---------- end footer section-------  */
+@media screen and (max-width : 430px) {
+    .home bg-light{
+        height: 104vh;
+    }
+    .home-img{
+        padding-top: 93px;
+    }
+    .chifs-content .layer .chif .chif-img::before {
+       
+        bottom: -81px !important;
+    }
+    }
+    @media screen and (min-width:430px){
+       .home-img{
+        padding-top: 98px;
+       }
+       .home bg-light .container{
+        height: 105vh;
 
+       }
+    }
